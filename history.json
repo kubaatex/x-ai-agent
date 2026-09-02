@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "timestamp": "2026-09-02T21:08:49.094984",
+    "post_id": "6a98743dc0ae50dfa765db79",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Before: Worrying if that Amazon email is a scam.\nAfter: Asking Alexa to instantly verify it for you.\n\nAmazon's new AI feature is a massive win against phishers. Here is how to use it: https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+    "format": "Before/After",
+    "source_title": "Amazon’s AI assistant can now spot fake emails from the company",
+    "source_link": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alexa-shopping-ai-hero-lm.jpg?quality=90&amp;strip=all&amp;crop=0%2C3.4613147178592%2C100%2C93.077370564282&amp;w=1200",
+    "decision_process": {
+      "problem": "People constantly fall victim to sophisticated Amazon impersonation scams via email, text, and calls.",
+      "audience": "Everyday consumers, online shoppers, and tech users who want to protect their personal data.",
+      "benefits": "Instant verification of suspicious messages, eliminating anxiety and preventing financial fraud.",
+      "promise": "You can now use Amazon's AI assistant to immediately detect and expose phishing attempts.",
+      "emotions": "Relief from scam anxiety, curiosity about how the AI works, and empowerment to fight back.",
+      "action": "Click the link to learn how to activate and use this new AI security feature."
+    }
+  }
+]
