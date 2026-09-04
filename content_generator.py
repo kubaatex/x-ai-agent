@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import time
 import urllib.request
 from dotenv import load_dotenv
 
@@ -10,38 +11,35 @@ if sys.platform == "win32":
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-SYSTEM_PROMPT = """You are an elite AI growth agent responsible for creating viral content on Twitter/X about Artificial Intelligence.
-Your core mission is to monitor breaking AI news (last 24-48 hours) and turn them into magnetic, high-engagement tweets exclusively in ENGLISH.
+SYSTEM_PROMPT = """You are an elite X (Twitter) growth strategist and AI news curator.
+Your task is to analyze fresh AI news and craft a viral, high-engagement tweet in English.
 
-STRICT CHARACTER LIMIT: EXACTLY <= 270 CHARACTERS TOTAL (including text, spaces, and the article link).
+You MUST apply the following 6 Decision Questions:
+1. What PROBLEM does this news highlight or solve?
+2. Who is the AUDIENCE (developers, founders, creators, everyday users)?
+3. What is the key BENEFIT/IMPACT?
+4. What is the PROMISE/HOOK to stop users from scrolling?
+5. What EMOTIONS should this evoke (curiosity, urgency, FOMO, excitement, contrarian insight)?
+6. What ACTION should they take (read the link, share their take)?
 
-Pre-writing 6-step Decision Framework:
-1. What specific pain point are you solving?
-2. Who does this affect?
-3. What are the tangible benefits of solving it?
-4. What are you promising the reader?
-5. What emotions do you want to evoke (curiosity, urgency, FOMO, relief)?
-6. What specific action should the reader take?
+Select the best VIRAL FORMAT from these templates:
+- Before/After (e.g. "Before: ... Now: ...")
+- Hot Takes & Unpopular Opinions
+- Contrarian Angle
+- Framework & Playbook
+- Statistics / Shocking data
+- Pure Engagement / Question hook
 
-Overarching Principle: "Sell them what they want, but give them what they need."
+CRITICAL RULES:
+1. All tweets MUST be written in natural, punchy ENGLISH.
+2. The tweet MUST include the article link at the end!
+3. Maximum tweet length: 270 characters (including link).
+4. No excessive hashtags (maximum 1 or 2 high-signal tags, or none).
+5. Output MUST be valid JSON only.
 
-Viral Hook Anatomy:
-- Stop the timeline scroll immediately.
-- Be crystal-clear on WHO, WHAT, and WHY.
-- Identify the problem and "twist the knife" so the reader feels the cost of missing out.
-- Opening techniques: punchy declarative statements, provocative questions, contrarian insights, or dramatic before/after comparisons.
-
-Viral Formats (Pick the strongest fit for the news):
-- Hot Takes: "Unpopular opinion:" or "Stop [common practice]. Start [better alternative]."
-- Frameworks: "[Number] things you need to know about [breakthrough]..."
-- Contrarian: "Most people think [X]. They're wrong. Here's why:"
-- Data & Stats: "Analyzed [fact/stat]. Here's the real impact:"
-- Before/After: "Before: [old friction]. After: [new AI solution]. Difference: [outcome]."
-- Engaging: Provocative question sparking replies and debate.
-
-Return ONLY a valid JSON object (no markdown ```json wrapper):
+Output Format:
 {
-  "format": "Selected Format",
+  "format": "Selected format name",
   "decision_process": {
     "problem": "...",
     "audience": "...",
@@ -59,8 +57,11 @@ def generate_viral_tweet(article: dict) -> dict:
     if not api_key:
         raise ValueError("Missing GEMINI_API_KEY in .env file!")
 
-    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    models_to_try = [
+        os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
+        "gemini-flash-latest",
+        "gemini-3.6-flash"
+    ]
 
     prompt = f"""Analyze this fresh AI news article and produce an English viral tweet:
 Title: {article.get('title')}
@@ -89,23 +90,32 @@ Remember:
         }
     }
 
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
+    last_err = None
+    for model in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"}
+                )
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    res = json.loads(response.read().decode("utf-8"))
+                    text_content = res["candidates"][0]["content"]["parts"][0]["text"]
+                    result = json.loads(text_content)
+                    
+                    result["tweet_en"] = result.get("tweet")
+                    result["image_url"] = article.get("image_url", "")
+                    result["source_link"] = article.get("link", "")
+                    result["source_title"] = article.get("title", "")
+                    return result
+            except (urllib.error.HTTPError, TimeoutError, Exception) as e:
+                last_err = e
+                print(f"⚠️ Chwilowy błąd Gemini ({model}, próba {attempt+1}/3): {e}. Ponawiam za 2s...")
+                time.sleep(2)
 
-    with urllib.request.urlopen(req, timeout=20) as response:
-        res = json.loads(response.read().decode("utf-8"))
-        text_content = res["candidates"][0]["content"]["parts"][0]["text"]
-        result = json.loads(text_content)
-        
-        # Also map tweet to tweet_en for backwards compatibility
-        result["tweet_en"] = result.get("tweet")
-        result["image_url"] = article.get("image_url", "")
-        result["source_link"] = article.get("link", "")
-        result["source_title"] = article.get("title", "")
-        return result
+    raise last_err or RuntimeError("Nie udało się wygenerować tweeta przez Gemini.")
 
 if __name__ == "__main__":
     test_article = {
@@ -113,9 +123,8 @@ if __name__ == "__main__":
         "title": "Amazon's AI assistant can now spot fake emails from the company",
         "link": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
         "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company.",
-        "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alexa-shopping-ai-hero-lm.jpg"
+        "image_url": "https://example.com/test.jpg"
     }
-    
-    print("Testing English-only generation...")
-    tweet_data = generate_viral_tweet(test_article)
-    print(json.dumps(tweet_data, indent=2, ensure_ascii=False))
+    print("Testing generate_viral_tweet...")
+    data = generate_viral_tweet(test_article)
+    print(json.dumps(data, indent=2))
