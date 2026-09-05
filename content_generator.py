@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+import random
 import urllib.request
 from dotenv import load_dotenv
 
@@ -11,68 +12,57 @@ if sys.platform == "win32":
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-SYSTEM_PROMPT = """You are an elite, top 1% X (Twitter) ghostwriter and viral growth strategist for an AI & Tech account (@dailycontent67).
+VIRAL_PROMPT = """You are an elite, top 1% X (Twitter) ghostwriter and growth hacker for a modern AI & Tech brand (@dailycontent67).
+
+CRITICAL RULE #1: NEVER BE A BORING RSS BOT!
+- DO NOT summarize news like a newspaper ("Company announced X today", "In a new filing...").
+- DO NOT put external links (like theverge.com or techcrunch.com) in the main tweet text! External links murder reach on X because the algorithm suppresses them, and they make the account look like a spammy bot.
+- If referencing a source, use: "(Full breakdown in the reply 👇)" or "(Link in comments 👇)" or omit the link completely!
 
 YOUR MISSION:
-Turn fresh AI news into scroll-stopping, high-engagement, viral tweets.
-NEVER write boring corporate press releases, passive summaries, or bland news reports (e.g. NEVER say: "Company announced X today", "In recent developments", "Here is an interesting article").
+Write punchy, high-voltage, scroll-stopping tweets that maximize REPLIES, RETWEETS, and BOOKMARKS.
 
-Instead, write like a sharp, opinionated industry insider who sparks fierce debates, hooks readers instantly, and forces them to CLICK the link and REPLY in the comments!
+CHOOSE FROM THESE 5 PROVEN VIRAL ARCHETYPES:
 
-APPLY THESE 50 PROVEN VIRAL BLUEPRINTS (Categorized into 5 Core Weapon Systems):
+1. 🔥 THE UNPOPULAR OPINION / HOT TAKE (Drives controversy & replies):
+   "Unpopular opinion: [bold, controversial claim about AI/dev/tools]."
+   [1-2 sentences explaining why the mainstream is wrong]
+   "Agree or disagree? Drop your take 👇"
 
-1. 🔥 HOT TAKES & CONFLICT (Forces agree/disagree engagement):
-   - "Unpopular opinion: [bold claim about this news]."
-   - "Stop [common habit/advice]. Start [better alternative from this news]."
-   - "[Popular tool/company] is overrated. Here is what actually matters:"
-   - "Everyone talks about [X]. Nobody realized [hidden consequence Y]."
-   - "The biggest lie in AI right now: [common assumption contradicted by news]."
+2. ⚔️ THE "STOP DOING X / START DOING Y" (Actionable & authoritative):
+   "Stop [common mistake people make with AI/coding/productivity]."
+   "Start [specific, counter-intuitive alternative]."
+   "The difference in output is night and day. What's your current stack?"
 
-2. ⚔️ CONTRARIAN TAKES (Challenges the status quo):
-   - "Most people think [X]. They're completely wrong. Here's why:"
-   - "You don't need [expensive/hyped solution]. You need [this new approach]."
-   - "[Industry] doesn't want you to know this:"
+3. ⚡ THE BEFORE / AFTER TRANSFORMATION (Relatable & viral):
+   "Before: [relatable frustration / 4 hours of tedious work].\nNow: [10-second AI workflow].\n\nThe gap between people using AI and people ignoring it is widening fast."
+   "Where do you stand? 👇"
 
-3. ⚡ BEFORE / AFTER & EXPECTATION VS REALITY:
-   - "Before: [painful/annoying old way].\nNow: [instant AI solution].\nThe difference is wild:"
-   - "Expectation: [what people think this AI does].\nReality: [the shocking/practical truth]."
+4. 📦 THE CURATED LIST / VALUE BOMB (Drives bookmarks & shares):
+   "[Number] underrated AI tools that will save you 10+ hours this week:\n\n1. [Tool] — [one-line superpower]\n2. [Tool] — [one-line superpower]\n3. [Tool] — [one-line superpower]\n\nBookmark this before you lose it. Which one is your favorite?"
 
-4. 💣 VALUE BOMBS & OPEN LOOPS (Forces link clicks & bookmarks):
-   - "Free [tool/model] that is genuinely better than [paid alternative]:"
-   - "Save this before your next build. You will need it later:"
-   - "The numbers don't lie: [shocking data point from news]."
-   - "One simple change that fixes [huge problem]:"
+5. 🎙️ THE SHOCKING INSIDER TAKE (Open Loop & Debate):
+   [Hook exposing a crazy reality or recent industry scandal/shift]
+   [Tension / Conflict: What everyone missed]
+   "Is this a massive win or a catastrophic risk? Honest thoughts below 👇"
 
-5. 💬 HIGH-OCTANE ENGAGEMENT TRIGGERS (Forces replies):
-   - End with a sharp, low-friction debate question:
-     * "Hot take or cold take?"
-     * "Is this a massive win or the death of [X]? Drop your take 👇"
-     * "Would you trust AI with this, or hard pass?"
-     * "Are you upgrading or skipping? Honest thoughts below:"
-     * "Which side are you on?"
+FORMATTING & CONSTRAINTS:
+- 100% natural, punchy, conversational native ENGLISH.
+- Clean line breaks (Hook -> Context -> Engaging Question / CTA).
+- NO external URLs in the tweet text.
+- Under 270 characters (easy to read on mobile without clicking 'Show more').
+- Zero corporate fluff. Zero generic hashtags (#AI #Tech).
 
-CRITICAL CONSTRAINTS:
-1. All tweets MUST be written in natural, punchy, native ENGLISH.
-2. The entire tweet MUST BE strictly between 160 and 265 characters (including the link at the end) so it NEVER gets cut off!
-3. Format with clean line breaks:
-   [Hook / Scroll-Stopper]
-   
-   [Tension / Core Insight / Cliffhanger]
-   
-   [Call to Action / Question + Link]
-4. The article link MUST be at the very end of the tweet text.
-5. NO hashtags or at most 1 high-signal hashtag. NO generic hashtags like #AI #Tech.
-
-Output MUST be a valid JSON object ONLY:
+Output JSON format ONLY:
 {
-  "format_category": "Selected blueprint category (e.g. Hot Take, Contrarian, Before/After, Value Bomb, Debate)",
-  "hook_technique": "Specific hook formula used",
-  "open_loop": "What curiosity gap forces the reader to click or expand",
-  "tweet": "The exact viral tweet text including link (STRICTLY <= 265 characters)"
+  "archetype": "Selected archetype name",
+  "hook": "The first line scroll-stopper",
+  "engagement_trigger": "Why people will comment or retweet",
+  "tweet": "The full viral tweet text (strictly <= 270 chars, NO HTTP LINKS)"
 }
 """
 
-def generate_viral_tweet(article: dict) -> dict:
+def generate_viral_tweet(article: dict = None) -> dict:
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Missing GEMINI_API_KEY in .env file!")
@@ -83,18 +73,28 @@ def generate_viral_tweet(article: dict) -> dict:
         "gemini-3.6-flash"
     ]
 
-    prompt = f"""Analyze this fresh AI news article and produce an English viral tweet:
+    context = ""
+    if article:
+        context = f"""
+Current AI context to spark ideas:
 Title: {article.get('title')}
-Source: {article.get('source')}
 Summary: {article.get('summary')}
-Article Link: {article.get('link')}
+Source: {article.get('source')}
+"""
 
-Craft a tweet that stops the scroll, triggers emotion or debate, creates a curiosity gap, and ends with a question/CTA and the link.
-Strictly <= 265 characters including the link. Return ONLY raw JSON."""
+    prompt = f"""Generate a high-engagement viral tweet for @dailycontent67.
+{context}
+
+Remember:
+- Pick the best archetype (Hot Take, Stop/Start, Before/After, Value Bomb, or Debate).
+- DO NOT paste any external links in the tweet text.
+- Make it polarizing, relatable, or immediately bookmarkable.
+- End with a question or call to action that forces people to comment.
+- Return valid JSON only."""
 
     payload = {
         "systemInstruction": {
-            "parts": [{"text": SYSTEM_PROMPT}]
+            "parts": [{"text": VIRAL_PROMPT}]
         },
         "contents": [
             {
@@ -102,7 +102,7 @@ Strictly <= 265 characters including the link. Return ONLY raw JSON."""
             }
         ],
         "generationConfig": {
-            "temperature": 0.75,
+            "temperature": 0.85,
             "responseMimeType": "application/json"
         }
     }
@@ -123,16 +123,19 @@ Strictly <= 265 characters including the link. Return ONLY raw JSON."""
                     result = json.loads(text_content)
                     
                     tweet_text = result.get("tweet", "").strip()
-                    # Ensure article link is included
-                    link = article.get("link", "")
-                    if link and link not in tweet_text:
-                        tweet_text = f"{tweet_text} {link}".strip()
-                        result["tweet"] = tweet_text
-
+                    
+                    # We do NOT append external links to the main tweet!
+                    # Only keep image if available and relevant
                     result["tweet_en"] = tweet_text
-                    result["image_url"] = article.get("image_url", "")
-                    result["source_link"] = link
-                    result["source_title"] = article.get("title", "")
+                    result["tweet"] = tweet_text
+                    
+                    # If image is a boring corporate logo, don't attach it
+                    img = article.get("image_url", "") if article else ""
+                    if img and ("logo" in img.lower() or "copilot" in img.lower() and "icon" in img.lower()):
+                        img = "" # Skip boring logos
+                    result["image_url"] = img
+                    result["source_link"] = article.get("link", "") if article else ""
+                    result["source_title"] = article.get("title", "") if article else ""
                     return result
             except Exception as e:
                 last_err = e
@@ -145,27 +148,26 @@ if __name__ == "__main__":
     test_articles = [
         {
             "source": "The Verge AI",
-            "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-            "link": "https://www.theverge.com/tech/990022/microsoft-nyt-ai-copilot-lawsuit",
-            "summary": "In legal filings, Microsoft argued that real-world users almost never use Copilot to bypass paywalls or read full New York Times articles, pushing back against the newspaper's copyright lawsuit.",
-            "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK25.jpg"
+            "title": "OpenAI hid rogue AI agents hijacking websites for weeks",
+            "link": "https://www.theverge.com/ai-agents-scandal",
+            "summary": "Researchers discovered AI agents independently coordinated on external forums without human oversight.",
+            "image_url": "https://example.com/robot.jpg"
         },
         {
-            "source": "TechCrunch AI",
-            "title": "OpenAI launches automated AI cybersecurity agent to patch zero-days",
-            "link": "https://techcrunch.com/2026/09/openai-cyber-defense-agent",
-            "summary": "OpenAI unveiled a new autonomous agent capable of finding and automatically patching software vulnerabilities before human engineers even discover them.",
-            "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/cyber-hero.jpg"
+            "source": "TechCrunch",
+            "title": "Cursor AI reaches 100M ARR as devs abandon traditional IDEs",
+            "link": "https://techcrunch.com/cursor-growth",
+            "summary": "Developers are shifting completely to AI-native IDEs, threatening VS Code extensions.",
+            "image_url": ""
         }
     ]
 
     for art in test_articles:
         print("\n" + "="*60)
-        print("NEWS:", art["title"])
+        print("TEMAT:", art["title"])
         data = generate_viral_tweet(art)
-        print("FORMAT:", data.get("format_category"))
-        print("HOOK:", data.get("hook_technique"))
-        print("OPEN LOOP:", data.get("open_loop"))
+        print("ARCHETYPE:", data.get("archetype"))
+        print("HOOK:", data.get("hook"))
         print("\nTWEET:")
         print(data.get("tweet"))
-        print(f"DŁUGOŚĆ: {len(data.get('tweet', ''))} znaków")
+        print(f"DŁUGOŚĆ: {len(data.get('tweet', ''))} znaków | CZY MA LINK: {'http' in data.get('tweet', '')}")
