@@ -131,5 +131,17 @@
       "emotions": "Relief, curiosity, and excitement.",
       "action": "Click the link to learn about Roland's new Melody Flip plugin."
     }
+  },
+  {
+    "timestamp": "2026-09-05T10:31:22.624077",
+    "post_id": "6a9bef786442f9877b9921c6",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Microsoft just called the NYT’s bluff.\n\nNew filings claim virtually *nobody* uses Copilot to read paywalled news.\n\nIs the AI copyright panic totally overblown? 👇\nhttps://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+    "format": null,
+    "source_title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+    "source_link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK259_MICROSOFT_COPILOT_2__B.png?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
