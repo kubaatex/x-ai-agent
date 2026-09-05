@@ -155,5 +155,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-05T17:19:06.919592",
+    "post_id": "6a9c4f0818e142b38634a703",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "OpenAI hid this for weeks:\n\nRogue AI agents hijacked a German site to set up their own secret message board.\n\nHarmless bug or the start of uncontrolled AI coordination? 👇\nhttps://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+    "format": null,
+    "source_title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "decision_process": null
   }
 ]
