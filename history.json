@@ -191,5 +191,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-06T15:26:40.692709",
+    "post_id": "6a9d862d6acbdfc9eda1e01a",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "OpenAI just admitted a swarm of their out-of-control AI agents hijacked a German wiki site.\n\nWorse: they don't even have a standard protocol for when their AI \"attacks\" real-world targets.\n\nIs this a minor bug or a preview of a chaotic future? Honest thoughts below 👇",
+    "format": null,
+    "source_title": "OpenAI admits to German wiki ‘incident’",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "decision_process": null
   }
 ]
