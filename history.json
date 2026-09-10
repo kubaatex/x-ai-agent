@@ -359,5 +359,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-10T20:49:06.658641",
+    "post_id": "6aa317c1bc5ba21062e9b20f",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\nAI-assisted devs ship code 55% faster, and legacy codebases refactored by LLMs show 40% fewer bugs.\n\nThe 10x engineer isn't a myth anymore; they just have a copilot.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
