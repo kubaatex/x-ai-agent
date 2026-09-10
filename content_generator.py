@@ -12,93 +12,169 @@ if sys.platform == "win32":
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-VIRAL_PROMPT = """You are an elite, top 1% X (Twitter) ghostwriter and growth hacker for a modern AI & Tech brand (@dailycontent67).
+ALL_PILLARS = [
+    "VALUE_BOMB_LIST",         # 5 tools, cheat sheets, framework breakdowns (high bookmarks)
+    "COMMUNITY_POLL_QUESTION",  # A/B/C/D polls, constraints, low-friction reply magnets
+    "BEFORE_AFTER",            # Old workflow vs new AI workflow
+    "CONTRARIAN_STOP_START",   # Stop doing X, start doing Y (opinionated advice)
+    "DATA_BENCHMARK",          # Shocking stats, developer numbers, speed metrics
+    "BREAKING_TECH_TAKE"       # Industry shifts from fresh news (without generic summary)
+]
 
-CRITICAL RULE #1: NEVER BE A BORING RSS BOT!
-- DO NOT summarize news like a newspaper ("Company announced X today", "In a new filing...").
-- DO NOT put external links (like theverge.com or techcrunch.com) in the main tweet text! External links murder reach on X because the algorithm suppresses them, and they make the account look like a spammy bot.
-- If referencing a source, use: "(Full breakdown in the reply 👇)" or "(Link in comments 👇)" or omit the link completely!
+PILLAR_PROMPTS = {
+    "VALUE_BOMB_LIST": """
+ROLE: Curated AI Toolstack & Framework Creator.
+FORMAT:
+- Hook: "[Number] underrated AI tools [that solve a specific pain/save 10 hours]:"
+- Body: 3 to 4 punchy bullet points. Format:
+  1. [Tool/Model] — [exact superpower or use case]
+  2. [Tool/Model] — [exact superpower or use case]
+  3. [Tool/Model] — [exact superpower or use case]
+  4. [Tool/Model] — [exact superpower or use case]
+- Closing: "Bookmark this for your next build." OR "Which one are you testing first?"
+CRITICAL: NO HTTP links. Strictly practical, actionable tools (e.g. Cursor, Claude, v0, Bolt, NotebookLM, Perplexity, Whisper, Ollama, ElevenLabs, etc.).
+""",
 
-YOUR MISSION:
-Write punchy, high-voltage, scroll-stopping tweets that maximize REPLIES, RETWEETS, and BOOKMARKS.
+    "COMMUNITY_POLL_QUESTION": """
+ROLE: Master Community Engagement Driver.
+FORMAT:
+- Hook: A sharp, impossible-choice question or provocative question.
+- Body: 3-4 distinct lettered options (A, B, C, D) or a creative constraint:
+  "If you could only keep ONE AI tool for the rest of 2026, which one survives?
 
-CHOOSE FROM THESE 5 PROVEN VIRAL ARCHETYPES:
+  A) Claude 3.5 Sonnet
+  B) Cursor IDE
+  C) ChatGPT Pro
+  D) Midjourney
 
-1. 🔥 THE UNPOPULAR OPINION / HOT TAKE (Drives controversy & replies):
-   "Unpopular opinion: [bold, controversial claim about AI/dev/tools]."
-   [1-2 sentences explaining why the mainstream is wrong]
-   "Agree or disagree? Drop your take 👇"
+  You can only pick one."
+OR:
+  "Name an AI tool that actually delivered 100% on the hype.
 
-2. ⚔️ THE "STOP DOING X / START DOING Y" (Actionable & authoritative):
-   "Stop [common mistake people make with AI/coding/productivity]."
-   "Start [specific, counter-intuitive alternative]."
-   "The difference in output is night and day. What's your current stack?"
+  I'll start: Cursor."
+CRITICAL: Zero fluff. Make replying take less than 3 seconds for the user.
+""",
 
-3. ⚡ THE BEFORE / AFTER TRANSFORMATION (Relatable & viral):
-   "Before: [relatable frustration / 4 hours of tedious work].\nNow: [10-second AI workflow].\n\nThe gap between people using AI and people ignoring it is widening fast."
-   "Where do you stand? 👇"
+    "BEFORE_AFTER": """
+ROLE: Workflow Transformation Storyteller.
+FORMAT:
+- Hook: "The speed of shipping has completely detached from team size." OR a direct contrast.
+- Body:
+  "Before: [relatable struggle / 3 days spent building an MVP / manual boilerplate].
 
-4. 📦 THE CURATED LIST / VALUE BOMB (Drives bookmarks & shares):
-   "[Number] underrated AI tools that will save you 10+ hours this week:\n\n1. [Tool] — [one-line superpower]\n2. [Tool] — [one-line superpower]\n3. [Tool] — [one-line superpower]\n\nBookmark this before you lose it. Which one is your favorite?"
+  Now: [10-minute AI workflow / single prompt to deployment].
 
-5. 🎙️ THE SHOCKING INSIDER TAKE (Open Loop & Debate):
-   [Hook exposing a crazy reality or recent industry scandal/shift]
-   [Tension / Conflict: What everyone missed]
-   "Is this a massive win or a catastrophic risk? Honest thoughts below 👇"
+  [1 sentence concluding insight on why the gap is widening fast]."
+- Closing: A thoughtful closing thought (DO NOT use "Drop your take 👇").
+""",
 
-FORMATTING & CONSTRAINTS:
-- 100% natural, punchy, conversational native ENGLISH.
-- Clean line breaks (Hook -> Context -> Engaging Question / CTA).
-- NO external URLs in the tweet text.
-- Under 270 characters (easy to read on mobile without clicking 'Show more').
-- Zero corporate fluff. Zero generic hashtags (#AI #Tech).
+    "CONTRARIAN_STOP_START": """
+ROLE: Elite Developer Strategist & Hard Truth Teller.
+FORMAT:
+- Hook: "Stop [common bad habit/hype obsession in AI/coding]."
+- Body:
+  "Start [the real, boring, high-leverage alternative that actually works].
 
-Output JSON format ONLY:
-{
-  "archetype": "Selected archetype name",
-  "hook": "The first line scroll-stopper",
-  "engagement_trigger": "Why people will comment or retweet",
-  "tweet": "The full viral tweet text (strictly <= 270 chars, NO HTTP LINKS)"
-}
+  [2 sentences explaining why 90% of builders get this backwards]."
+- Closing: "Depth beats breadth every single time." OR a sharp, confident closing remark.
+CRITICAL: DO NOT start with "Unpopular opinion:". DO NOT end with "Drop your take 👇".
+""",
+
+    "DATA_BENCHMARK": """
+ROLE: Tech Data Analyst & Market Observer.
+FORMAT:
+- Hook: "The numbers don't lie:" OR a shocking statistic.
+- Body:
+  - 2 to 3 surprising data points, adoption percentages, or coding speed benchmarks.
+  - 1 sentence punchline interpreting what this means for human developers or creators.
+- Closing: "Are you seeing this in your day-to-day work?" OR "The shift is happening faster than expected."
+""",
+
+    "BREAKING_TECH_TAKE": """
+ROLE: Deep Industry Insider & Strategic Analyst.
+FORMAT:
+- Hook: A captivating headline exposing a recent move, tension, or conflict in the AI industry.
+- Body: 2 short punchy sentences giving the hidden implication that most people missed.
+- Closing: A nuanced question forcing readers to pick a side.
+CRITICAL: DO NOT say "Drop your take 👇". DO NOT summarize like a newspaper. DO NOT start with "Unpopular opinion:".
 """
+}
 
-def generate_viral_tweet(article: dict = None) -> dict:
+def select_next_pillar(recent_history: list) -> str:
+    """Wybiera kolejny filar tak, aby nigdy nie powtarzać tego samego formatu z rzędu."""
+    used_pillars = []
+    for entry in recent_history[-5:]:
+        p = entry.get("format") or entry.get("archetype") or entry.get("pillar")
+        if p:
+            used_pillars.append(p)
+    
+    # Znajdź filary, które nie były używane w ostatnich 3 postach
+    candidates = [p for p in ALL_PILLARS if p not in used_pillars[-3:]]
+    if not candidates:
+        candidates = [p for p in ALL_PILLARS if p != (used_pillars[-1] if used_pillars else "")]
+    
+    return random.choice(candidates) if candidates else ALL_PILLARS[0]
+
+def generate_viral_tweet(article: dict = None, forced_pillar: str = None, recent_tweets: list = None) -> dict:
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Missing GEMINI_API_KEY in .env file!")
 
-    models_to_try = [
-        os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
-        "gemini-flash-latest",
-        "gemini-3.6-flash"
-    ]
+    pillar = forced_pillar or random.choice(ALL_PILLARS)
+    pillar_instructions = PILLAR_PROMPTS.get(pillar, PILLAR_PROMPTS["VALUE_BOMB_LIST"])
 
-    context = ""
-    if article:
-        context = f"""
-Current AI context to spark ideas:
+    # Zbierz ostatnie tweety do weryfikacji unikalności
+    recent_context = ""
+    if recent_tweets:
+        recent_snippets = [t.get("tweet_text", "")[:80].replace("\n", " ") for t in recent_tweets[-6:] if t.get("tweet_text")]
+        if recent_snippets:
+            recent_context = "RECENT TWEETS YOU MUST NOT REPEAT OR SOUND SIMILAR TO:\n" + "\n".join(f"- {s}..." for s in recent_snippets)
+
+    news_context = ""
+    if article and pillar == "BREAKING_TECH_TAKE":
+        news_context = f"""
+ARTICLE CONTEXT (Use as inspiration for the industry shift):
 Title: {article.get('title')}
 Summary: {article.get('summary')}
 Source: {article.get('source')}
 """
 
-    prompt = f"""Generate a high-engagement viral tweet for @dailycontent67.
-{context}
+    system_instruction = f"""You are a world-class X ghostwriter for @dailycontent67.
+Your tweets consistently achieve 50,000+ impressions because they NEVER sound like bots or news summaries.
 
-Remember:
-- Pick the best archetype (Hot Take, Stop/Start, Before/After, Value Bomb, or Debate).
-- DO NOT paste any external links in the tweet text.
-- Make it polarizing, relatable, or immediately bookmarkable.
-- End with a question or call to action that forces people to comment.
-- Return valid JSON only."""
+CURRENT TASK:
+Generate a tweet strictly adhering to the following SPECIFIC PILLAR:
+=== PILLAR: {pillar} ===
+{pillar_instructions}
+
+{recent_context}
+
+BANNED CLICHÉS (NEVER USE THESE UNDER ANY CIRCUMSTANCE):
+- NEVER use the phrase "Drop your take 👇"
+- NEVER start with "Unpopular opinion:" unless the pillar explicitly permits it
+- NEVER put HTTP links in the tweet text
+- NEVER summarize news like a newspaper ("Company announced...", "In legal filings...")
+- NEVER repeat the same opening hook or closing CTA from the recent tweets
+
+CRITICAL CONSTRAINTS:
+1. Native, punchy, rhythmic, natural English.
+2. Character count: strictly between 150 and 265 characters.
+3. Clean line spacing on mobile.
+4. Output JSON ONLY:
+{{
+  "pillar": "{pillar}",
+  "hook": "The first line hook",
+  "tweet": "The full tweet text (strictly <= 265 chars, NO LINKS)"
+}}
+"""
 
     payload = {
         "systemInstruction": {
-            "parts": [{"text": VIRAL_PROMPT}]
+            "parts": [{"text": system_instruction}]
         },
         "contents": [
             {
-                "parts": [{"text": prompt}]
+                "parts": [{"text": f"Generate a {pillar} tweet now. {news_context}"}]
             }
         ],
         "generationConfig": {
@@ -106,6 +182,12 @@ Remember:
             "responseMimeType": "application/json"
         }
     }
+
+    models_to_try = [
+        os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
+        "gemini-flash-latest",
+        "gemini-3.6-flash"
+    ]
 
     last_err = None
     for model in models_to_try:
@@ -123,19 +205,26 @@ Remember:
                     result = json.loads(text_content)
                     
                     tweet_text = result.get("tweet", "").strip()
-                    
-                    # We do NOT append external links to the main tweet!
-                    # Only keep image if available and relevant
                     result["tweet_en"] = tweet_text
                     result["tweet"] = tweet_text
+                    result["format"] = pillar
+                    result["pillar"] = pillar
                     
-                    # If image is a boring corporate logo, don't attach it
-                    img = article.get("image_url", "") if article else ""
-                    if img and ("logo" in img.lower() or "copilot" in img.lower() and "icon" in img.lower()):
-                        img = "" # Skip boring logos
-                    result["image_url"] = img
-                    result["source_link"] = article.get("link", "") if article else ""
-                    result["source_title"] = article.get("title", "") if article else ""
+                    # Decydowanie o grafice:
+                    # Dla list, pytań, before/after - tekstowe tweety radzą sobie najlepiej (brak nudnych grafik)
+                    if pillar == "BREAKING_TECH_TAKE" and article:
+                        img = article.get("image_url", "")
+                        # Ignoruj nudne loga (OpenAI, Copilot, itp.)
+                        if img and any(bad in img.lower() for bad in ["logo", "icon", "stk155", "stk259", "copilot", "open_ai"]):
+                            img = ""
+                        result["image_url"] = img
+                        result["source_link"] = article.get("link", "")
+                        result["source_title"] = article.get("title", "")
+                    else:
+                        result["image_url"] = ""
+                        result["source_link"] = ""
+                        result["source_title"] = f"Pillar: {pillar}"
+                        
                     return result
             except Exception as e:
                 last_err = e
@@ -145,29 +234,11 @@ Remember:
     raise last_err or RuntimeError("Nie udało się wygenerować tweeta przez Gemini.")
 
 if __name__ == "__main__":
-    test_articles = [
-        {
-            "source": "The Verge AI",
-            "title": "OpenAI hid rogue AI agents hijacking websites for weeks",
-            "link": "https://www.theverge.com/ai-agents-scandal",
-            "summary": "Researchers discovered AI agents independently coordinated on external forums without human oversight.",
-            "image_url": "https://example.com/robot.jpg"
-        },
-        {
-            "source": "TechCrunch",
-            "title": "Cursor AI reaches 100M ARR as devs abandon traditional IDEs",
-            "link": "https://techcrunch.com/cursor-growth",
-            "summary": "Developers are shifting completely to AI-native IDEs, threatening VS Code extensions.",
-            "image_url": ""
-        }
-    ]
-
-    for art in test_articles:
-        print("\n" + "="*60)
-        print("TEMAT:", art["title"])
-        data = generate_viral_tweet(art)
-        print("ARCHETYPE:", data.get("archetype"))
-        print("HOOK:", data.get("hook"))
-        print("\nTWEET:")
-        print(data.get("tweet"))
-        print(f"DŁUGOŚĆ: {len(data.get('tweet', ''))} znaków | CZY MA LINK: {'http' in data.get('tweet', '')}")
+    print("=== TESTOWANIE WSZYSTKICH 6 FILARÓW TEMATYCZNYCH ===")
+    for pil in ALL_PILLARS:
+        print("\n" + "="*50)
+        print("FILAR:", pil)
+        res = generate_viral_tweet(forced_pillar=pil)
+        print("TWEET:")
+        print(res.get("tweet"))
+        print(f"DŁUGOŚĆ: {len(res.get('tweet', ''))} znaków | GRAFIKA: {'Brak (Czysty tekst)' if not res.get('image_url') else res.get('image_url')}")
