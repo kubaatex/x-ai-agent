@@ -347,5 +347,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS505_QUANTUM_COMPUTING_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-10T16:23:35.952441",
+    "post_id": "6aa2d98643345d7c659c1034",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI framework hype cycle.\n\nStart mastering core system design and raw APIs.\n\n90% of builders waste weeks fighting abstractions for issues basic code solves in hours. Hype fails; fundamentals scale.\n\nDepth beats breadth every time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
