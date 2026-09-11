@@ -395,5 +395,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_B.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-11T20:55:16.712935",
+    "post_id": "6aa46ab3cb62fc78b502f16d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop building complex AI agents for simple workflows.\n\nStart writing clean, deterministic state machines.\n\n90% of devs use LLMs for logic a basic if/else tree solves in 2ms. They trade predictability for expensive latency.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
