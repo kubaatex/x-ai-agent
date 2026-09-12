@@ -419,5 +419,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-12T15:28:52.864953",
+    "post_id": "6aa56fb3ef23d0656ae885c5",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "3 underrated AI tools that save 10 hours of research:\n\n1. NotebookLM — turn massive PDFs into instant audio briefs\n2. Perplexity — get cited answers without SEO spam\n3. Whisper — transcribe hours of audio with perfect accuracy\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
