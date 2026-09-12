@@ -443,5 +443,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-12T21:25:46.654093",
+    "post_id": "6aa5c358bcabda92e19dc762",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "OpenAI dodging a 2026 IPO is a quiet admission of how the game is played.\n\nWall Street demands predictability, but AGI requires burning billions on chaotic R&D. Staying private avoids that meat grinder.\n\nIs this protecting innovation, or hiding a broken model?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK201_SAM_ALTMAN_CVIRGINIA2D-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
