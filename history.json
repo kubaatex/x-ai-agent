@@ -431,5 +431,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-12T18:20:31.527076",
+    "post_id": "6aa597ee9a7f0553d17058c5",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n• Junior devs using AI resolve bug tickets 42% faster.\n• Over 70% of new enterprise repos contain AI code.\n\nThe barrier between junior and senior is no longer syntax; it's system architecture.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
