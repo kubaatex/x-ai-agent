@@ -407,5 +407,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-12T10:41:17.341710",
+    "post_id": "6aa52c4ccbee9c9b06cdbbe0",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days writing boilerplate and wiring up APIs.\nNow: One prompt to a deployed MVP in 10 minutes.\n\nThe execution gap is widening. Velocity is the only moat left.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
