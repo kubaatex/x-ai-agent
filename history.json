@@ -491,5 +491,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-13T21:25:13.879653",
+    "post_id": "6aa714b8eba7bc5677a232d6",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI wrapper trending on GitHub.\n\nStart mastering database design and clean architecture. 90% of builders waste weeks stitching fragile APIs instead of optimizing their core. You can't prompt-engineer bad data flow.\n\nDepth beats breadth.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
