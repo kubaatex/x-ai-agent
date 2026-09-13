@@ -479,5 +479,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-13T18:46:57.082073",
+    "post_id": "6aa6ef9f57098b213380ce4d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that save 10 hours of frontend work:\n\n1. v0 — instant UI from a text prompt\n2. Bolt — full-stack dev in your browser\n3. Cursor — deep codebase auto-debugging\n4. ElevenLabs — ultra-realistic voiceovers\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
