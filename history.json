@@ -467,5 +467,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-13T16:13:02.263092",
+    "post_id": "6aa6cb8c57098b21337d4bfa",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "One developer can now out-ship entire product teams.\n\nBefore: 3 days of boilerplates, webpack configs, and DB setup.\n\nNow: 15 mins from a single v0 prompt to live production.\n\nThe leverage gap is widening fast. The solo builder is the new enterprise.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
