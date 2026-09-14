@@ -503,5 +503,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-14T12:39:05.429671",
+    "post_id": "6aa7eae8dbc8049beef997ac",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "What is the most overrated skill in tech in the age of AI?\n\nA) Prompt engineering\nB) LeetCode grinding\nC) Writing boilerplate code\nD) System architecture\n\nWhich one loses its value first?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
