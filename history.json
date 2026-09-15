@@ -563,5 +563,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-15T21:17:04.756751",
+    "post_id": "6aa9b5cfb2451a8f988636fd",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chaining 5 different AI agents for basic workflows.\n\nStart writing clean, deterministic code.\n\nMost builders use LLMs to patch over messy logic they don't understand. You can't debug vibes when production breaks.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
