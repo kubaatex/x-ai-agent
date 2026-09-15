@@ -539,5 +539,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-15T11:39:24.610842",
+    "post_id": "6aa92e6b203a4231d6040281",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days fighting boilerplate, router configs, and CSS.\nNow: A single prompt to v0, deployed in 5 minutes.\n\nThe leverage of a solo builder is widening the gap faster than we realize.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
