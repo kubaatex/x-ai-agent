@@ -551,5 +551,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-15T16:55:25.111128",
+    "post_id": "6aa9787b3b70f9eba568c074",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "What is the biggest bottleneck in building software in 2026?\n\nA) Bad prompt architecture\nB) Poorly structured databases\nC) Hallucinated code bugs\nD) Finding actual product-market fit\n\nYou can only pick one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
