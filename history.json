@@ -599,5 +599,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-16T21:15:02.310430",
+    "post_id": "6aab06d5883b10a2a9b73bb1",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You have to build and ship a full web app from scratch this weekend.\n\nYou can only keep ONE:\n\nA) Claude 3.5 Sonnet\nB) Cursor\nC) v0 / Bolt\nD) ChatGPT Plus\n\nWhich one actually gets it done?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
