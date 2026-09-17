@@ -635,5 +635,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-17T21:18:50.921049",
+    "post_id": "6aac5939a392fa7c05c7c01d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days of manual boilerplate and routing config.\nNow: One prompt to deployment in under 10 minutes.\n\nThe bottleneck is no longer typing. Taste is the only real moat left.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
