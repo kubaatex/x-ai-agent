@@ -623,5 +623,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-17T16:58:58.474305",
+    "post_id": "6aac1c51d09e8ca1c301a8eb",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop fine-tuning open-source LLMs on day one.\n\nStart writing crisp prompt pipelines and eval sets. Most teams burn thousands on GPUs just to fix bad context design. Structured data beats parameter tuning almost always.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
