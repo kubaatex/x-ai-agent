@@ -611,5 +611,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-17T11:36:12.643112",
+    "post_id": "6aabd0ab2755c09b10268be7",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• Devs using AI ship 55% faster.\n• Senior PR review times are up 40% due to hidden bugs.\n\nWe’ve just traded writing code for debugging AI hallucinated noise.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
