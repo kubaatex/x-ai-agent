@@ -683,5 +683,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-19T15:51:42.479839",
+    "post_id": "6aaeaf8d140a302402593bb9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Product execution now outpaces planning.\n\nBefore: 3 days configuring boilerplate and DB schemas just to test a basic MVP.\n\nNow: One prompt to a live, interactive web app in 5 minutes.\n\nThe barrier to entry didn't just drop—it was entirely erased.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
