@@ -695,5 +695,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-19T21:28:08.838142",
+    "post_id": "6aaefe673916ba5b752f461c",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "If you could only keep ONE AI tool in your daily workflow for the rest of 2025, which one survives?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) ChatGPT Plus\nD) v0 by Vercel\n\nThe rest are deleted forever. Which one?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
