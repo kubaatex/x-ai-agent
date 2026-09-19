@@ -671,5 +671,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-19T10:53:57.888307",
+    "post_id": "6aae69c4076fd8348fc5b02e",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop mocking every dependency in your tests.\n\nStart writing integration tests against real local databases.\n\n90% of mock suites pass while production crashes. You end up testing your imagination instead of your actual code.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
