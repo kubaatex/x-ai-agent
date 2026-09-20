@@ -707,5 +707,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-20T11:17:40.327432",
+    "post_id": "6aafc0d2549cbb1779842fe9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Meta is shifting from web scraping to OS scraping.\n\nWith Muse accessing local Mac Messages and Notes, they’re bypassing public data to train on your raw, private thoughts. It’s a direct pipeline to your mind.\n\nWould you trade local OS privacy for zero-friction utility?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/257890_Chatbot_secrets_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
