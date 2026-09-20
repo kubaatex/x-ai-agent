@@ -743,5 +743,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-20T21:30:25.166193",
+    "post_id": "6ab0506f9a5eadd2b1cd596d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• AI-assisted repos saw a 41% surge in merged PRs this year.\n• Code review turnaround times dropped by 35%.\n\nWe aren't writing more code; we're just reading and orchestrating it.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
