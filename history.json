@@ -779,5 +779,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-21T22:34:18.554483",
+    "post_id": "6ab1b0e91177eabccaf0a5d8",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You have 24 hours to ship a working MVP or you lose your funding. Which tool are you trusting to build the entire frontend?\n\nA) v0.dev\nB) Bolt.new\nC) Cursor\nD) Lovable",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
