@@ -755,5 +755,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-21T12:42:40.176773",
+    "post_id": "6ab1263994136037c927421d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The UN's panic over AI agents signals a major shift in tech regulation.\n\nRegulators are targeting autonomous execution, not static LLMs. It's a preemptive move to stop economic loops that bypass state control.\n\nIs global safety worth killing open-source autonomy?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "UN says AI safeguards can’t wait for certainty",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2234546269.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
