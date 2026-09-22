@@ -791,5 +791,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-22T11:31:54.634794",
+    "post_id": "6ab2672980cb27270aae8e82",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop over-engineering complex multi-agent frameworks.\n\nStart writing deterministic state machines.\n\nDevs use agents to mask sloppy prompt engineering, making debugging impossible. Predictable loops beat chaotic autonomy.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
