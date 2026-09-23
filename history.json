@@ -839,5 +839,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-23T21:28:14.480861",
+    "post_id": "6ab4446dbca3c9135bf726a1",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• AI now generates 46% of newly committed code\n• Junior devs using it ship PRs 55% faster\n\nWe aren't writing code anymore; we are reviewing it.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
