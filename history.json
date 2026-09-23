@@ -827,5 +827,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-23T16:54:18.213544",
+    "post_id": "6ab404387f037588e0bdcd10",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Software leverage has completely detached from team size.\n\nBefore: 3 days setting up auth, DB schemas, and boilerplate to test an idea.\n\nNow: 10-minute AI workflow from prompt to live production.\n\nThe gap between thinkers and builders is closing fast.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
