@@ -815,5 +815,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25415491/DSC08587.JPG?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-23T11:31:19.405790",
+    "post_id": "6ab3b8868412852858787c6d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that save 10 hours of dev time:\n\n• Bolt — Full-stack apps instantly in browser\n• v0 — Production UI from plain text\n• Cursor — Base-wide refactoring with Claude\n• NotebookLM — Instant research from PDFs\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
