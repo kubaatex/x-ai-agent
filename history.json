@@ -851,5 +851,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-24T11:39:34.417723",
+    "post_id": "6ab50bf54b4dab96a6d0da1b",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop fine-tuning custom LLMs for basic logic.\n\nStart mastering structured JSON schemas and clean context windows.\n\n90% of builders think custom weights solve bad data flow. In reality, solid system prompts do 99% of the heavy lifting.\n\nDepth beats breadth.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
