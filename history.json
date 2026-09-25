@@ -887,5 +887,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-25T21:33:00.008989",
+    "post_id": "6ab6e88880521ded55176862",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Apple’s smart home AI push isn’t about cameras—it’s a strike at Amazon's data engine.\n\nBy processing vision models on-device, Apple turns ambient privacy into a hardware moat.\n\nAre you paying extra for local privacy, or giving your video feeds to the cloud?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+    "source_link": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/LR6B5897.jpeg?quality=90&amp;strip=all&amp;crop=0%2C10.728628551019%2C100%2C78.542742897962&amp;w=1200",
+    "decision_process": null
   }
 ]
