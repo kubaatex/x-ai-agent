@@ -923,5 +923,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-26T21:05:46.768728",
+    "post_id": "6ab833a93d66d464e5bd3992",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "3 underrated AI tools to save you 10 hours of dev work:\n\n1. Bolt.new — Spin up full-stack web apps in-browser\n2. NotebookLM — Turn raw research into audio briefings\n3. Ollama — Run powerful LLMs locally, offline\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
