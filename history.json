@@ -899,5 +899,17 @@
     "source_link": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/LR6B5897.jpeg?quality=90&amp;strip=all&amp;crop=0%2C10.728628551019%2C100%2C78.542742897962&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-26T11:19:17.778037",
+    "post_id": "6ab7aa343afb9171a82f26db",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing new AI frameworks every week.\n\nStart mastering basic Postgres query optimization.\n\n90% of app latency comes from bloated database calls, not slow LLMs. You can't prompt-engineer your way out of terrible schema design.\n\nDepth beats breadth every time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
