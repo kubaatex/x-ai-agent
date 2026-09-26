@@ -911,5 +911,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-26T16:20:33.114417",
+    "post_id": "6ab7f0cf05811e5737319ffd",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "73% of production bugs this quarter came from unreviewed AI boilerplate.\n\n- PR review cycles are up 41%\n- Line output doubled, but shipping velocity stalled\n\nWriting code is free now. Verifying it is expensive.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
