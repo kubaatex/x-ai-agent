@@ -959,5 +959,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-27T21:19:09.397168",
+    "post_id": "6ab9884c54f1e60c7e7b820c",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop fine-tuning models for basic bugs.\n\nStart writing strict validation schemas.\n\nBuilders burn compute forcing LLMs to act deterministically. You don't need custom weights; you need an assert statement.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
