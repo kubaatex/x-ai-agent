@@ -971,5 +971,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-28T13:47:57.655263",
+    "post_id": "6aba700c67133b6c17d766f6",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 64% of dev teams ship AI code daily\n• PR review times increased by 38%\n\nWe aren't coding faster—we've just traded writing code for full-time editing.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
