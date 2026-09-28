@@ -983,5 +983,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-28T21:14:22.763379",
+    "post_id": "6abad8ad7889d8281c1d32e8",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "If your company banned all AI tools tomorrow except for ONE, which one are you fighting to keep?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) ChatGPT Plus\nD) v0.dev\n\nChoose wisely.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
