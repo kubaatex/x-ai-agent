@@ -1019,5 +1019,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-29T22:56:40.668429",
+    "post_id": "6abc4227d3050be9e3787226",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "72% of junior devs now generate over half of their production code with AI.\n\nMeanwhile, senior engineers report a 40% drop in boilerplate dev time.\n\nWe aren't writing code anymore; we are just auditing it.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
