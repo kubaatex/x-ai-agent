@@ -1007,5 +1007,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-09-29T18:36:53.604345",
+    "post_id": "6abc0544a784493a8ae66c3e",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop swapping your tech stack for every new AI framework.\n\nStart mastering Postgres and clean data modeling.\n\n90% of AI bottlenecks aren't the LLM, they're bad database queries. Context injection requires flawless data pipeline design.\n\nDepth beats breadth.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
