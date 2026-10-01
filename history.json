@@ -1079,5 +1079,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-01T18:51:10.353690",
+    "post_id": "6abeab9cea8c2a50c92a3ce9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Google just won the legal right to cannibalize the web.\n\nBy dismissing the AI Overview lawsuits, courts ruled zero-click search is fair game. Google gets the data, you get zero traffic.\n\nDo publishers block Googlebot now, or keep playing a rigged game?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+    "source_link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
