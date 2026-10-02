@@ -1115,5 +1115,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-02T18:22:57.040437",
+    "post_id": "6abff67f55d4307d35a4d23c",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Shipping speed has completely detached from team size.\n\nBefore: 3 days of boilerplate, DB config, and routing.\nNow: A single prompt to a deployed MVP in 10 mins.\n\nThe gap between idea and execution is gone. Leverage is the only metric that matters now.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
