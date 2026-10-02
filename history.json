@@ -1127,5 +1127,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-02T22:57:08.865001",
+    "post_id": "6ac036c3f942e39137000fa4",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools to save 10 hours of dev:\n\n1. v0 — instant UI generation from text\n2. Bolt.new — builds full-stack web apps in seconds\n3. Cursor — AI-powered codebase navigation\n4. Ollama — runs LLMs locally\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
