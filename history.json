@@ -1103,5 +1103,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-02T12:27:00.531874",
+    "post_id": "6abfa31381e421bfcd7b5586",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI framework wrapper.\n\nStart mastering vanilla API calls and raw database design.\n\n90% of devs waste weeks debugging abstraction layers they don't need. True speed comes from knowing the bare metal.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
