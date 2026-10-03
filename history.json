@@ -1163,5 +1163,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-03T19:14:04.804509",
+    "post_id": "6ac153fb3bfd38430fee6502",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop building complex multi-agent AI swarms.\n\nStart mastering single-prompt deterministic pipelines.\n\n90% of devs chase sci-fi complexity while their basic system has a 40% failure rate. Predictability is what actually scales.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
