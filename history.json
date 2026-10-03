@@ -1175,5 +1175,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-03T22:07:44.470370",
+    "post_id": "6ac17caffec591339489601f",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "3 underrated AI tools to supercharge your workflow:\n\n1. Bolt — Build full-stack web apps from a single prompt.\n2. NotebookLM — Turn messy docs into an interactive audio podcast.\n3. Whisper — Flawless, near-instant voice-to-text.\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
