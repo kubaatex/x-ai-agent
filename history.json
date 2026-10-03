@@ -1139,5 +1139,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-03T11:36:40.989336",
+    "post_id": "6ac0e8c6814d657011c2195b",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Meta giving away AI device code isn't generosity.\n\nThey're commoditizing hardware to turn every dumb screen into a Meta node. It’s a preemptive strike to flood homes before Apple locks down proprietary AI gear.\n\nWill open DIY AI gadgets beat closed ecosystems?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Meta open sources code to let you make Muse AI gadgets",
+    "source_link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "decision_process": null
   }
 ]
