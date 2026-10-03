@@ -1151,5 +1151,17 @@
     "source_link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-03T16:14:13.950650",
+    "post_id": "6ac129d47d53b827e0e3b953",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "What is the single most transformative developer tool of the last 5 years? The one that genuinely changed how you write code daily.\n\nA) Cursor IDE\nB) GitHub Copilot\nC) v0 by Vercel\nD) Shadcn/ui\n\nWhich one actually saved your sanity?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
