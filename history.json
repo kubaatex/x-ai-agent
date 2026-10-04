@@ -1187,5 +1187,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-04T12:17:30.922653",
+    "post_id": "6ac243d9365aeab50be0ee4d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\nDevs using AI assistants are shipping 55% faster, but PR review times have spiked by 38% due to subtle bugs.\n\nWe aren't saving time; we're just shifting the bottleneck from typing to debugging.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
