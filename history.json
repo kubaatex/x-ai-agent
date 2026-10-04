@@ -1199,5 +1199,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-04T17:33:20.596995",
+    "post_id": "6ac28ddd6ae9cbb01a5384f0",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "We’ve officially entered the era of the AI alibi.\n\nUsing LLMs to \"prove\" innocence is the new playbook for deniability. Once you can prompt-engineer your own exoneration, objective truth is dead.\n\nWill we soon outlaw AI-generated character witnesses?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2244569411.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.752607989199%2C100%2C78.494784021602&amp;w=1200",
+    "decision_process": null
   }
 ]
