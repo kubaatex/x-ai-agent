@@ -1211,5 +1211,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2244569411.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.752607989199%2C100%2C78.494784021602&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-04T21:19:31.224401",
+    "post_id": "6ac2c2e263761da98b5d4848",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You have to delete three of these forever. Which ONE do you keep to build your next startup?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) ChatGPT Plus\nD) v0.dev\n\nThere is only one right answer.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
