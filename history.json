@@ -1223,5 +1223,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-06T13:14:53.764768",
+    "post_id": "6ac4f44cdd742d137c56536b",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days of boilerplates, DB setup, and CSS hell just to launch an MVP.\n\nNow: 10 mins from a single prompt to a live URL.\n\nThe leverage of a solo builder has never been this terrifying.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
