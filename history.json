@@ -1235,5 +1235,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-06T23:01:17.263627",
+    "post_id": "6ac57dbc9833100fb598f205",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n74% of codebases now contain AI commits, up from 12% in 2023. Yet 62% of new bugs are traced to unreviewed LLM code.\n\nWe are trading security for sheer speed.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
