@@ -1247,5 +1247,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-07T13:15:15.408550",
+    "post_id": "6ac645e2d0db514678e80061",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "3 underrated AI tools to save you 10 hours of dev work:\n\n1. v0 — Generates clean, production-ready UI in seconds.\n2. Whisper — Perfect audio-to-text transcription.\n3. Ollama — Runs powerful LLMs locally on your machine.\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
