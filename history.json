@@ -1259,5 +1259,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-08T13:21:56.172944",
+    "post_id": "6ac798f282db5af660c5af7c",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI wrapper framework.\n\nStart mastering database indexing and system design.\n\nMost devs think LLMs solve performance issues. In reality, bad DB architecture kills your app long before API latency does.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
