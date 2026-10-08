@@ -1271,5 +1271,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-08T20:41:12.927870",
+    "post_id": "6ac7ffde74384ca756da6f18",
+    "status": "sending",
+    "channel": "@dailycontent67",
+    "tweet_text": "California shutting down human-robot cage matches isn't about safety.\n\nIt’s the first legal panic over kinetic AI liability. Regulators are desperately trying to draw a hard line before autonomous physical tech scales.\n\nDo we regulate robots as mere tools, or let them enter th...",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "California is trying to shut down robot vs. human cage matches",
+    "source_link": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-08-at-4.18.11-PM.png?quality=90&amp;strip=all&amp;crop=0%2C6.5996142187931%2C100%2C86.800771562414&amp;w=1200",
+    "decision_process": null
   }
 ]
