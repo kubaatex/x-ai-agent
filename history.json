@@ -1307,5 +1307,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-09T23:14:14.867626",
+    "post_id": "6ac97545f91f772d4575e8a8",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop building complex multi-agent AI chains.\n\nStart writing deterministic code with strict schemas.\n\n90% of devs use LLMs for problems a basic state machine solves in microseconds. They trade robust logic for slow, expensive API calls.\n\nDepth beats breadth.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
