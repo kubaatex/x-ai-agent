@@ -1343,5 +1343,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-10T21:37:34.850565",
+    "post_id": "6acab01df91f772d45a9299c",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 46% of code in new repos is AI-generated\n• Devs ship PRs 55% faster\n• Review times dropped by 38%\n\nWe aren't replacing devs—we're turning juniors into seniors overnight.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
