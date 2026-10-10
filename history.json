@@ -1319,5 +1319,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-10T12:25:12.891902",
+    "post_id": "6aca2ea7b07d37ac9771189d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days spent wiring up auth, database schemas, and UI boilerplate.\n\nNow: A 10-minute prompt-to-deployment pipeline.\n\nLeverage isn't about headcount anymore—it's about context control.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
