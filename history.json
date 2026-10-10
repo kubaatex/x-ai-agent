@@ -1331,5 +1331,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-10T17:49:46.933024",
+    "post_id": "6aca7ab9f91f772d45a08103",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You can only keep ONE AI coding assistant for the rest of your career. The rest vanish forever.\n\nWhich one survives?\n\nA) Cursor\nB) GitHub Copilot\nC) Claude Code\nD) Windsurf\n\nYou can only pick one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
