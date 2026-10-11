@@ -1367,5 +1367,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-11T18:02:43.172225",
+    "post_id": "6acbcf41fa026cfb810e3b93",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop tweaking system prompts for edge cases.\n\nStart writing proper schema validation and defensive code.\n\n90% of devs treat LLMs like magic instead of APIs. You're trying to prompt-engineer away core architecture flaws.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
