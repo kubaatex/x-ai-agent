@@ -1355,5 +1355,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-11T12:42:55.109603",
+    "post_id": "6acb844dc4de2d2b125ed0e1",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that save 10 hours of dev work:\n\n1. v0 — Generates clean UI code instantly\n2. Whisper — Fast local audio transcription\n3. NotebookLM — Synthesizes heavy PDFs\n4. Bolt — Full-stack apps in the browser\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
