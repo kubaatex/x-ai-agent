@@ -1403,5 +1403,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-12T22:30:01.194975",
+    "post_id": "6acd5f67aec88be081e662f7",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "A staggering 72% of senior engineers now spend more time reviewing AI code than writing syntax.\n\n• PR velocity is up 3.5x\n• Bug resolution time dropped 40%\n\nWe're no longer coders—we're code auditors.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
