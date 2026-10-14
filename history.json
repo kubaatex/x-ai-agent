@@ -1427,5 +1427,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-14T17:06:18.610513",
+    "post_id": "6acfb68888481a0819e18c25",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Big Tech isn't building AI for work anymore—they’re targeting your biology.\n\nWhen models dictate your nutrition and sleep, agency quietly shifts to software. The ultimate moat isn't smart LLMs; it's total routine lock-in.\n\nAre you optimizing life or surrendering it?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "My AI doppelganger tells me what to eat",
+    "source_link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268801_DigitalTwin_made_me_a_doppelganger_to_test_my_health_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
