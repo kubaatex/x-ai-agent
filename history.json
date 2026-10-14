@@ -1439,5 +1439,17 @@
     "source_link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268801_DigitalTwin_made_me_a_doppelganger_to_test_my_health_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-14T21:37:24.380351",
+    "post_id": "6acff61368efdf6f76c5f6cc",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days lost to boilerplate, auth, and setup.\nNow: Prompt to production in 20 minutes with AI workflows.\n\nThe leverage solo builders have right now is unprecedented.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
