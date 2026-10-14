@@ -1415,5 +1415,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-14T11:45:46.306686",
+    "post_id": "6acf6b69b530d71fb07c3091",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that fix workflow friction:\n\n1. NotebookLM — Turns PDFs into audio podcasts\n2. Ollama — Runs open LLMs locally offline\n3. Bolt — Ships full-stack apps in seconds\n4. Whisper — Flawless voice-to-text\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
