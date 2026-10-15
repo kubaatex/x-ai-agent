@@ -1463,5 +1463,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-15T16:55:32.245734",
+    "post_id": "6ad10583e30d190e5e5f9263",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "If you could only use ONE model for all your work in 2026, which are you locked into?\n\nA) Claude 3.5 Sonnet\nB) GPT-4o\nC) Gemini 1.5 Pro\nD) Llama 3.3 70B\n\nYou can't switch.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
