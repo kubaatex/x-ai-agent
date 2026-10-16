@@ -1487,5 +1487,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-16T11:16:24.082655",
+    "post_id": "6ad2078525d13dd62ee28703",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "OpenAI isn’t building a browser—they just hijacked Google’s.\n\nChatGPT reading your active Chrome tabs isn't a simple utility update. It’s a context grab that strips Google Search of its data monopoly in real time.\n\nWill you enable it for speed, or block it for privacy?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "ChatGPT can peek at your Chrome tabs now",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C93.077370564282&amp;w=1200",
+    "decision_process": null
   }
 ]
