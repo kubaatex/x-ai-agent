@@ -1511,5 +1511,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-16T21:02:43.021474",
+    "post_id": "6ad290f11c7e49ea4c241e88",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "72% of pull requests in top repos now contain AI-assisted code.\n\n• Review times dropped from 14h to 18m\n• Bug recurrence is down 40%\n\nSenior devs aren't writing code anymore—they're just editing it.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
