@@ -1535,5 +1535,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-17T15:28:50.318711",
+    "post_id": "6ad39431938409f1d090c08d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You have 1 hour to build and deploy a working MVP or you lose your job.\n\nWhich stack are you betting your career on?\n\nA) Next.js + Vercel\nB) Python + FastAPI\nC) Ruby on Rails\nD) HTML + Raw PHP\n\nBe honest.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
