@@ -1547,5 +1547,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-17T18:26:45.732871",
+    "post_id": "6ad3bde3e272c4918f98fb9f",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Meta quietly backed down from scraping news sites for AI training.\n\nThe open web is no longer free real estate for frontier models. Big tech is learning that premium data will cost billions, not apology tweets.\n\nIs licensed data the only AI moat left?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Meta removes language that may have allowed it to scrape news sites",
+    "source_link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
