@@ -1583,5 +1583,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-18T15:48:25.809852",
+    "post_id": "6ad4ea48769b457934cc7387",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop fine-tuning open-source models for basic features.\n\nStart building clean datasets and robust fallback logic.\n\n90% of builders blame the AI when dirty data is the real problem. Fancy weights won't fix poor inputs.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
