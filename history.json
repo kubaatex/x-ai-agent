@@ -1571,5 +1571,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-18T10:58:41.376462",
+    "post_id": "6ad4a660938409f1d0c89d36",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days lost setting up auth, schema migrations, and boilerplate.\n\nNow: 10 minutes from prompt to live staging URL.\n\nLeverage isn't linear anymore.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
