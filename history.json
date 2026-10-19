@@ -1619,5 +1619,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-19T13:03:18.091152",
+    "post_id": "6ad61514e15f9b60b39ffac8",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You are starting a software startup tomorrow. You get to choose ONLY ONE AI tool for your entire engineering team:\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) GitHub Copilot\nD) ChatGPT Pro\n\nWhich one builds your MVP fastest?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
