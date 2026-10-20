@@ -1643,5 +1643,17 @@
     "source_link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-20T11:29:32.669528",
+    "post_id": "6ad7509b41bc4976d542b4c9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chaining 5 AI agents for basic tasks.\n\nStart writing clean, deterministic code with tight error handling.\n\nBuilders use agents to mask bad logic instead of fixing it. Complexity feels like progress until production breaks.\n\nDepth beats breadth every time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
