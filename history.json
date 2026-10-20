@@ -1667,5 +1667,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-20T21:33:45.995438",
+    "post_id": "6ad7de38141c814ae49421e9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days lost setting up auth, DB schemas, and UI boilerplate.\nNow: 15 minutes from a raw prompt to a live MVP.\n\nThe execution gap between solo builders and 10-person teams is officially zero.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
