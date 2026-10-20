@@ -1655,5 +1655,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-20T16:57:29.021156",
+    "post_id": "6ad79d77e8d2782b232f3ae1",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "68% of production code shipped this quarter was AI-assisted.\n\n• Unit test coverage grew 4x\n• Average PR size expanded by 110%\n\nDevelopers are no longer authors—they are high-speed editors.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
