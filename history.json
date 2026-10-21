@@ -1703,5 +1703,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-21T21:37:15.247850",
+    "post_id": "6ad9308acfacd0260096bd3e",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• PR review time down from 4h to 14m\n• Code refactoring speed up 350%\n• Junior output now matches 2022 mid-level benchmarks\n\nWriting code isn't the bottleneck—system design is.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
