@@ -1727,5 +1727,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-22T17:06:35.938895",
+    "post_id": "6ada429ab2fbfbb7e9865703",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Before: Sacrificing a full sprint to build a clunky internal admin panel.\n\nNow: Prompting a fully functional CRUD dashboard to production in 15 minutes.\n\nThe cost of custom internal tooling just dropped to zero. Leverage is everything now.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
