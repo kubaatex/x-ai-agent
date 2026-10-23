@@ -1775,5 +1775,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-23T21:21:02.815712",
+    "post_id": "6adbcfbd0b5343d0704f4e7e",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You’re forced to wipe 3 of these AI tools from your workflow forever. Which ONE survives?\n\nA) Cursor\nB) Claude 3.5 Sonnet\nC) ChatGPT\nD) v0\n\nChoose wisely.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
