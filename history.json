@@ -1763,5 +1763,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-23T17:01:39.815643",
+    "post_id": "6adb92f1d6f1d57d2c2aff0d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "70% of production outages this year came from human-written boilerplate.\n\n• AI-assisted repos ship 3x faster\n• Test coverage jumped from 45% to 88%\n\nWe aren't replacing devs—we're eliminating busywork.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
