@@ -1823,5 +1823,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-24T21:35:17.666277",
+    "post_id": "6add24940b5343d070a28139",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop prompting AI to write entire apps from scratch.\n\nStart using LLMs as hyper-focused inline refactoring engines.\n\nMost builders generate fragile slop because they ignore context limits. Modular control is how you scale.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
