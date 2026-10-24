@@ -1787,5 +1787,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-24T10:52:10.201561",
+    "post_id": "6adc8dd9e4be8a4d865392d5",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 2 weeks lost to database schemas and auth boilerplate.\nNow: A single spec prompt to live production in 10 minutes.\n\nThe leverage gap between solo devs and legacy teams is widening daily.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
