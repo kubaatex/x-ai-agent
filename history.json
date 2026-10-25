@@ -1871,5 +1871,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-25T21:43:30.663925",
+    "post_id": "6ade7801bd33ce99c3918b3b",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days spent on boilerplate and auth just to test an MVP.\n\nNow: 10-minute AI workflows go from prompt to live deployment.\n\nSolo builders are outpacing entire dev teams.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
