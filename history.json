@@ -1859,5 +1859,17 @@
     "source_link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-25T18:59:40.157544",
+    "post_id": "6ade519a6887a2efc11d84c6",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 AI tools saving product builders 10+ hours a week:\n\n1. v0 — instant prod-ready UI\n2. NotebookLM — turns PDFs into audio recaps\n3. Whisper — local voice-to-text\n4. Bolt — full-stack web apps in seconds\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
