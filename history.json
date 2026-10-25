@@ -1835,5 +1835,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-25T11:18:29.763413",
+    "post_id": "6adde5846887a2efc1008173",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 65% of senior engineers review more AI code than they write.\n• PR turnaround time dropped from 48 hours to 4 hours.\n\nDevelopers aren't typists anymore—they're code editors.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
