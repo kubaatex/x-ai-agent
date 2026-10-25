@@ -1847,5 +1847,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-25T16:09:34.235197",
+    "post_id": "6ade29bc8b3d437ddc171c8d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Open source purists just officially declared war on AI.\n\nBanning AI tools isn't about code quality—it's an ideological attempt to save human authorship. Isolating modern workflows will only alienate new devs.\n\nIs open source protecting its soul, or guaranteeing irrelevance?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "r/opensource just banned AI, non-English speakers, and more",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
