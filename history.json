@@ -1895,5 +1895,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-26T19:14:32.043770",
+    "post_id": "6adfa696188ed7b8726bf675",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You can only keep ONE AI tool in your workflow for the rest of 2025. Everything else gets deleted forever.\n\nA) Cursor\nB) Claude 3.5 Sonnet\nC) ChatGPT\nD) Perplexity\n\nWhich one survives?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
