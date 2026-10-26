@@ -1907,5 +1907,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-26T23:07:56.759505",
+    "post_id": "6adfdd4bade6626d93192ee9",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "92% of pull requests at top startups now contain AI-generated code.\n\n• Debugging time: -40%\n• PR backlogs: +300%\n\nWe solved writing code, only to create a massive review bottleneck.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
