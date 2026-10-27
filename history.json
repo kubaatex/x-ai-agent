@@ -1931,5 +1931,17 @@
     "source_link": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_ELECTIONS_DATA_CENTERS_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-27T17:57:11.980813",
+    "post_id": "6ae0e5f6b83eef4600cffa1a",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop stacking complex multi-agent frameworks.\n\nStart writing simple, deterministic pipelines.\n\n90% of devs add orchestration layers to hide bad prompt design. You end up debugging edge-case loops instead of core logic.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
