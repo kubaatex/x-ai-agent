@@ -1967,5 +1967,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-28T18:49:00.382919",
+    "post_id": "6ae2439bad4a74e89cefbe78",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "What is the single biggest time-sink in AI engineering right now?\n\nA) Prompt tweaking\nB) Debugging agent loops\nC) Managing context limits\nD) Waiting on API latency\n\nPick the one that eats most of your week.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
