@@ -1955,5 +1955,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-28T12:44:50.954109",
+    "post_id": "6ae1ee4123102e8c6f8070bf",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 74% of senior dev time is spent reviewing synthetic code, not writing it.\n• Refactoring speed is up 310% YoY.\n\nWriting code is officially a secondary skill—curation is the main event.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
