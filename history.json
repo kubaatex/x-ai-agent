@@ -1979,5 +1979,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-28T23:10:22.755060",
+    "post_id": "6ae280dd7d94db46db217133",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop building complex vector databases for simple apps.\n\nStart using Postgres and simple SQL queries.\n\n90% of builders add massive infra overhead before getting actual users. Boring tech scales far better than hyped stacks.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
