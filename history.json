@@ -2015,5 +2015,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-29T23:15:48.047375",
+    "post_id": "6ae3d3a26385db216a13125a",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "92% of developers now use AI coding assistants:\n\n• Average PR size is up 40%\n• Code review time increased 28%\n• Production bugs spiked 18%\n\nWe are shipping syntax faster than we can comprehend logic.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
