@@ -2039,5 +2039,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-30T18:34:51.843431",
+    "post_id": "6ae4e34a34702c2daac62145",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You’re forced to wipe your tech stack and can only keep ONE AI tool for all of 2026.\n\nWhich one survives?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) v0 / Bolt\nD) ChatGPT Pro\n\nYou can only pick one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
