@@ -2051,5 +2051,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-30T22:56:47.954481",
+    "post_id": "6ae520adeaa24d6f9a432924",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Apple bringing iOS AI to China isn't a victory—it's a surrender.\n\nTo stay competitive, Cupertino had to replace its closed-wall models with Beijing-approved LLMs. Hardware dominance now requires regional AI compromises.\n\nIs this smart pragmatism, or the end of a unified iOS?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Apple Intelligence is finally coming to China with iOS 27.3",
+    "source_link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.723165084465%2C100%2C78.55366983107&amp;w=1200",
+    "decision_process": null
   }
 ]
