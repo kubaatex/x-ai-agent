@@ -2027,5 +2027,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-30T12:47:11.435261",
+    "post_id": "6ae491cee560b6bf642b2a00",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop building multi-agent AI frameworks for simple workflows.\n\nStart writing deterministic Python scripts with clean logic.\n\n90% of builders wrap simple tasks in heavy agent abstractions and wonder why production breaks. Complexity isn't leverage.\n\nDepth beats breadth every time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
