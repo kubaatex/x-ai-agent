@@ -2063,5 +2063,17 @@
     "source_link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.723165084465%2C100%2C78.55366983107&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-31T12:17:44.551851",
+    "post_id": "6ae5dc671891472093d071de",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that save 10 hours of dev friction:\n\n1. v0 — text to clean React UI\n2. NotebookLM — turn PDFs into insights\n3. Ollama — run LLMs locally for free\n4. Whisper — flawless audio transcription\n\nWhich one are you testing first?",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
