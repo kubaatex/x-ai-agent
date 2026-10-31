@@ -2075,5 +2075,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-31T17:41:28.346000",
+    "post_id": "6ae6284721c807e9d5783160",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Building a full-stack MVP used to take weeks of setup.\n\nBefore: 4 days configuring auth, DB schemas, and UI boilerplate.\nNow: Prompt Cursor, deploy to Vercel in 20 minutes.\n\nExecution speed is no longer gated by team size—it's gated by curiosity.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
