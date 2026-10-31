@@ -2087,5 +2087,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-10-31T21:28:42.201148",
+    "post_id": "6ae65d8837c1acd2a0cfdfa8",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "What is the single biggest overhyped gimmick in AI right now?\n\nA) Prompt engineering bootcamps\nB) Autonomous AI SDRs\nC) 1-click video generators\nD) Custom GPT wrappers\n\nYou can only pick one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
