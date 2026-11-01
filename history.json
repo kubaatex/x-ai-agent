@@ -2111,5 +2111,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-01T18:25:41.441514",
+    "post_id": "6ae784244c17af1b8716e884",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI framework.\n\nStart mastering basic SQL and system design.\n\nMost devs build fragile wrappers because they don't understand how data actually moves. New tools won't save a weak foundation.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
