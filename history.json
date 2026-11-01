@@ -2099,5 +2099,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-01T13:14:33.237549",
+    "post_id": "6ae73b381ee172cd6dfaa47f",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• AI-generated PRs are up 140% YOY\n• Code review times dropped from 4 hours to 40 mins\n\nSenior devs aren't writing code anymore—they're just auditing AI outputs.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
