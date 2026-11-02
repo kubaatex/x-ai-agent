@@ -2135,5 +2135,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-02T15:40:30.888960",
+    "post_id": "6ae8aeed2810e4a79d35cba3",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "4 underrated AI tools that save 10 hours of research:\n\n1. NotebookLM — PDF to podcast audio\n2. Perplexity — web search with citations\n3. Whisper — local audio to text\n4. Ollama — run open LLMs offline\n\nBookmark this for your next build.",
+    "format": "VALUE_BOMB_LIST",
+    "source_title": "Pillar: VALUE_BOMB_LIST",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
