@@ -2159,5 +2159,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-03T14:04:18.241968",
+    "post_id": "6ae9e9e01d20820af1e32161",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Anthropic quietly blocking Claude from cloning games isn't about ethics.\n\nIt’s a preemptive move against publisher lawsuits. Labs will always nerf dev tools to protect enterprise valuations.\n\nIs this protecting IP, or corporate cowardice?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Anthropic clamps down on Claude’s AI video game clones",
+    "source_link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
