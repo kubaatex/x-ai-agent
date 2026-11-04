@@ -2195,5 +2195,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-04T21:16:19.673774",
+    "post_id": "6aeba0a20bb7d41592a7538b",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 62% of new repos are AI-assisted\n• Senior devs ship 3x faster\n• Stack onboarding time fell by 50%\n\nSingle-developer startups are becoming the default.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
