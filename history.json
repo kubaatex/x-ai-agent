@@ -2231,5 +2231,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-06T14:10:52.054921",
+    "post_id": "6aeddfeafd32b2a5bf1383f2",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "You’re forced to delete 3 of these AI tools forever. Which ONE survives?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) ChatGPT Pro\nD) Perplexity\n\nYou can only pick one. Who makes the cut?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
