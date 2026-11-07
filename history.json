@@ -2255,5 +2255,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-07T12:53:42.155263",
+    "post_id": "6aef1f55d6bbae6fa189297d",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop collecting 50 AI prompt templates.\n\nStart mastering core SQL and system design.\n\n90% of builders stack AI wrappers over broken schemas, thinking prompts fix bad architecture. They don't.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
