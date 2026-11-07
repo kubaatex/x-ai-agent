@@ -2279,5 +2279,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-07T21:45:08.300018",
+    "post_id": "6aef9be2229bf05daf767047",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "Media giants are pushing AI into daily habits, but exposing its biggest flaw.\n\nLLMs excel at loose improvisation, but crumble under strict precision. We’re passing off probabilistic engines as exact utility tools.\n\nIs bad execution worse than no AI at all?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+    "source_link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "decision_process": null
   }
 ]
