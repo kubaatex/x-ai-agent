@@ -2291,5 +2291,17 @@
     "source_link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-08T13:16:10.223523",
+    "post_id": "6af07619229bf05dafb2d074",
+    "status": "sent",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 62% of new boilerplate code is now AI-generated\n• Bug resolution speed is up 40% across dev teams\n\nEngineering is officially shifting from writing syntax to managing context.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
