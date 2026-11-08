@@ -2303,5 +2303,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-08T19:38:08.300447",
+    "post_id": "6af0cf9fd6bbae6fa109fb1b",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Which AI feature turned out to be 90% hype and 10% useful?\n\nA) Autonomous Coding Agents\nB) Custom GPT Wrappers\nC) AI Voice Call Bots\nD) Text-to-Video Generators\n\nYou can only pick one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
