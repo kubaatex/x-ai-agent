@@ -2315,5 +2315,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-09T16:07:27.081166",
+    "post_id": "6af1efbd0b813b4650637a95",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has detached from team size.\n\nBefore: 3 days setting up boilerplate and auth just to test an idea.\n\nNow: Prompt to live deployment in 10 minutes.\n\nThe gap between builders who leverage AI and those who don't is widening every week.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
