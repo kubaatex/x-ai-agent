@@ -2339,5 +2339,17 @@
     "source_link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.742998834307%2C100%2C78.514002331385&amp;w=1200",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-10T14:47:43.486635",
+    "post_id": "6af32e8ea9f33a390a45872c",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "74% of PRs in major repos now contain AI-assisted code.\n\n• PR review time: down from 4h to 18m\n• Automated test volume: +310%\n\nSenior devs aren't writing syntax anymore—they're becoming full-time code auditors.\n\nThe shift is happening faster than expected.",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
