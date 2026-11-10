@@ -2327,5 +2327,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-10T00:13:22.301267",
+    "post_id": "6af261a1223aa16048da36d1",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Apple quietly added $50 AI \"usage packs\" to Logic Pro.\n\nThey aren't just selling software updates anymore—they’re metering inference cost per render. The era of unmetered pro tools is officially over.\n\nIs pay-per-token the future of creative software, or a dealbreaker?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+    "source_link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.742998834307%2C100%2C78.514002331385&amp;w=1200",
+    "decision_process": null
   }
 ]
