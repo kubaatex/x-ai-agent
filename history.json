@@ -2351,5 +2351,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-13T21:24:33.414945",
+    "post_id": "6af7801078196a0a97206ba5",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new shiny AI framework.\n\nStart mastering raw system design and data structures.\n\n90% of builders stack fragile wrappers and wonder why prod crashes. AI amplifies code; it can't fix bad architecture.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
