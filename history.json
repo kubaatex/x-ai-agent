@@ -2375,5 +2375,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-19T23:01:48.125627",
+    "post_id": "6aff7fda8d2272fdf5181cc2",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "You’re forced to delete 3 of these forever. Which ONE survives in your daily stack?\n\nA) Claude 3.5 Sonnet\nB) Cursor IDE\nC) ChatGPT o1\nD) Perplexity Pro\n\nChoose wisely.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
