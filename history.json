@@ -2399,5 +2399,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-20T22:39:06.002195",
+    "post_id": "6b00cc08d9cbb430a1002597",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Taxing off-shore data centers exposes a massive US AI bottleneck.\n\nWashington demands compute built on home soil, but local grids are refusing connection. Big Tech is trapped between federal tariffs and energy limits.\n\nDo we force grid bailouts or cap AI growth?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+    "source_link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "decision_process": null
   }
 ]
