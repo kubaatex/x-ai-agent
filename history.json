@@ -2423,5 +2423,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-21T20:53:22.172731",
+    "post_id": "6b0204c1cc364169c1048107",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "If OpenAI, Anthropic, and Google all shut down tomorrow except ONE tool you use daily, which one survives?\n\nA) Claude 3.5 Sonnet\nB) Cursor\nC) Perplexity\nD) ChatGPT Pro\n\nPick one letter.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
