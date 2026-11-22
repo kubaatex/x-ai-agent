@@ -2447,5 +2447,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-22T21:01:48.719869",
+    "post_id": "6b03583bd864a01105f5c18d",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Gamers just forced a top indie studio to purge AI music overnight.\n\nSynth assets are a brand death sentence for creators. Big tech pushes automation, but audience anti-AI sentiment is winning the war.\n\nAre players saving human art or delaying the inevitable?",
+    "format": "BREAKING_TECH_TAKE",
+    "source_title": "Binding of Isaac developer removes AI music from Repentance Plus",
+    "source_link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&amp;strip=all&amp;crop=0%2C3.4613147178592%2C100%2C93.077370564282&amp;w=1200",
+    "decision_process": null
   }
 ]
