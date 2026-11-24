@@ -2483,5 +2483,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-24T17:36:18.750897",
+    "post_id": "6b05cb113f48af62c22364ad",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "One-person startups are out-pacing 10-person dev teams.\n\nBefore: 2 weeks wiring auth, setting up DBs, and fixing boilerplate.\n\nNow: Prompt to full-stack deployment in 15 minutes.\n\nLeverage is no longer about headcount—it’s about prompt mastery.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
