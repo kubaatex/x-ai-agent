@@ -2471,5 +2471,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-24T03:56:33.620562",
+    "post_id": "6b050af0f0d7b1e0deacc609",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Which AI upgrade felt like switching from dial-up to fiber optics?\n\nA) Cursor for writing code\nB) Claude 3.5 for complex docs\nC) Perplexity for Google search\nD) v0 for instant frontend UI\n\nYou can only keep one.",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
