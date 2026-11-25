@@ -2495,5 +2495,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-25T02:21:14.450349",
+    "post_id": "6b064619a8becebb77533c73",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "Stop chasing every new AI framework release on X.\n\nStart mastering core data modeling and edge cases.\n\nMost devs spend weeks gluing fragile APIs together instead of building clean primitives. Wrappers break; architecture lasts.\n\nDepth beats breadth every single time.",
+    "format": "CONTRARIAN_STOP_START",
+    "source_title": "Pillar: CONTRARIAN_STOP_START",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
