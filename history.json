@@ -2519,5 +2519,17 @@
     "source_link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&amp;strip=all&amp;crop=0,23.821989528796,100,52.356020942408",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-27T16:33:31.124229",
+    "post_id": "6b09b0d9b83ec61257e32378",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "You can only ship code using ONE of these workflows for the rest of 2026:\n\nA) Raw Claude 3.5 Sonnet web UI\nB) Cursor IDE on auto-pilot\nC) ChatGPT Voice Mode only\nD) Pure manual coding (Zero AI)\n\nWhich pain are you choosing?",
+    "format": "COMMUNITY_POLL_QUESTION",
+    "source_title": "Pillar: COMMUNITY_POLL_QUESTION",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
