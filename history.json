@@ -2531,5 +2531,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-28T01:25:37.953592",
+    "post_id": "6b0a2d9070e80ae8f1c0b294",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "The numbers don't lie:\n\n• 58% of devs use AI tools daily\n• Boilerplate speed: up 3x\n• PR review turnaround: down to 4 hrs\n\nSyntax fluency matters less today than raw architecture skill.\n\nAre you seeing this in your day-to-day work?",
+    "format": "DATA_BENCHMARK",
+    "source_title": "Pillar: DATA_BENCHMARK",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
