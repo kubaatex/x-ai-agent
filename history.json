@@ -2543,5 +2543,17 @@
     "source_link": "",
     "image_url": "",
     "decision_process": null
+  },
+  {
+    "timestamp": "2026-11-28T15:26:12.181851",
+    "post_id": "6b0af292c2294c5dfcd6e4bb",
+    "status": "error",
+    "channel": "@dailycontent67",
+    "tweet_text": "The speed of shipping has completely detached from team size.\n\nBefore: 3 days spent wiring auth, DB schemas, and boilerplate.\n\nNow: Prompting the full stack to production in 15 minutes.\n\nThe gap between builders and thinkers isn't closing; it's compounding daily.",
+    "format": "BEFORE_AFTER",
+    "source_title": "Pillar: BEFORE_AFTER",
+    "source_link": "",
+    "image_url": "",
+    "decision_process": null
   }
 ]
